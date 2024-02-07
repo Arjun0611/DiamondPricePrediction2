@@ -1,0 +1,13 @@
+prefix=/Users/arjun611/Documents/DiamondPricePrediction/venv
+exec_prefix=/Users/arjun611/Documents/DiamondPricePrediction/venv
+libdir=/Users/arjun611/Documents/DiamondPricePrediction/venv/lib
+sharedlibdir=/Users/arjun611/Documents/DiamondPricePrediction/venv/lib
+includedir=/Users/arjun611/Documents/DiamondPricePrediction/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
